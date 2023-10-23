@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webovio</title>
+    <link rel="shortcut icon" href="images/favicon/favicon-16x16.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon/apple-touch-icon.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrap">
+          <a class="header__logo" href="#">
+            <img src="images/logo/logo.svg" alt="Logo" />
+          </a>
+          <button
+            class="header__burger"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#headerMenu"
+            aria-controls="headerMenu"
+          >
+            <img src="images/icons/burger.svg" alt="Menu" />
+          </button>
+        </div>
+      </div>
+    </header>
+    <div
+      class="header__menu offcanvas offcanvas-end"
+      tabindex="-1"
+      id="headerMenu"
+      aria-labelledby="headerMenu"
+    >
+      <button
+        type="button"
+        class="btn-close header_nav__close"
+        data-bs-dismiss="offcanvas"
+        aria-label="Close"
+      ></button>
+
+      <nav class="header_nav">
+        <ul class="header_nav__list">
+          <li>
+            <a class="header_nav__link" href="#contacts">Contacts</a>
+          </li>
+          <li>
+            <a class="header_nav__link" href="">FAQ</a>
+          </li>
+          <li>
+            <a class="header_nav__link" href="">About us</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <section class="banner">
+      <div class="container">
+        <div class="banner__wrap">
+          <p class="banner__subtitle">A place where</p>
+          <h1 class="banner__title">A creative agency for redemptive brands</h1>
+          <p class="banner__text">
+            Anteelo is a leading strategic design firm that builds powerful
+            digital solutions for startups and enterprises.
+          </p>
+          <a class="banner__link" href="#contacts">Get in touch</a>
+        </div>
+      </div>
+      <div class="customers d-none d-xl-block">
+        <div class="customers__wrap">
+          <div class="customers__img">
+            <img src="images/customers-logo/andrew-porter.svg" alt="Logo" />
+          </div>
+          <div class="customers__img">
+            <img src="images/customers-logo/phalen-leadership.svg" alt="Logo" />
+          </div>
+          <div class="customers__img">
+            <img src="images/customers-logo/walbridge.svg" alt="Logo" />
+          </div>
+          <div class="customers__img">
+            <img src="images/customers-logo/ideal.svg" alt="Logo" />
+          </div>
+          <div class="customers__img">
+            <img src="images/customers-logo/jalen-rose.svg" alt="Logo" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="customers_section d-xl-none">
+      <div class="container">
+        <div class="customers">
+          <div class="customers__wrap">
+            <div class="customers__img">
+              <img src="images/customers-logo/andrew-porter.svg" alt="Logo" />
+            </div>
+            <div class="customers__img">
+              <img
+                src="images/customers-logo/phalen-leadership.svg"
+                alt="Logo"
+              />
+            </div>
+            <div class="customers__img">
+              <img src="images/customers-logo/walbridge.svg" alt="Logo" />
+            </div>
+            <div class="customers__img">
+              <img src="images/customers-logo/ideal.svg" alt="Logo" />
+            </div>
+            <div class="customers__img">
+              <img src="images/customers-logo/jalen-rose.svg" alt="Logo" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about_us">
+      <div class="container">
+        <div class="about_us__wrap">
+          <div class="about_us__info">
+            <p class="about_us__subtitle">What we do for you</p>
+            <h2 class="section_title">
+              Strategy. Design Content. Technology Development
+            </h2>
+            <p class="about_us__text">
+              There’s no secret sauce, no wizard behind the curtain. What makes
+              Aerolab tick is an interdisciplinary team with a framework that
+              fosters candid collaboration.
+            </p>
+            <a class="about_us__link link" href="#">More know About us</a>
+          </div>
+          <div>
+            <div class="feedback">
+              <p class="feedback__text">
+                With More than 10 Years of Knowledge and Expertise we Design and
+                Code Websites and Apps, We Build Brands and Help Them Succeed
+              </p>
+              <div class="feedback_customer">
+                <div class="feedback_customer__photo">
+                  <img
+                    src="images/customes-photo/genevieve-rodriquez1.png"
+                    alt="Photo"
+                  />
+                </div>
+                <div>
+                  <p class="feedback_customer__name">Genevieve Rodriquez</p>
+                  <p class="feedback_customer__role">Founder & CEO, Webovio</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects">
+      <div class="container">
+        <div class="projects__wrap">
+          <h2 class="section_title">
+            We Have Some <br />
+            Awesome Project.
+          </h2>
+          <div class="projects__about">
+            <p class="projects__text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="project">
+      <div class="project__img d-none d-xxl-block">
+        <img src="images/projects/balenciaga/balenciaga.jpg" alt="Balenciaga" />
+      </div>
+      <div class="container">
+        <div class="project__img d-xxl-none">
+          <img
+            src="images/projects/balenciaga/balenciaga.jpg"
+            alt="Balenciaga"
+          />
+        </div>
+        <div class="project__wrap">
+          <div class="flex-grow-1">
+            <div class="project_feedback">
+              <p class="project_feedback__text">
+                “In my history of working with trade show vendors, I can
+                honestly say that there is not one company that I've ever worked
+                with that has better service than Exhibit Systems.”
+              </p>
+              <div class="project_customer">
+                <div class="project_customer__photo">
+                  <img
+                    src="images/customes-photo/angel-armstrong.png"
+                    alt="Photo"
+                  />
+                </div>
+                <div>
+                  <p class="project_customer__name">Angel Armstrong</p>
+                  <p class="project_customer__role">Founder & CEO, Google</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project__about">
+            <h2 class="section_title">The wall new Balenciaga.com</h2>
+            <p class="project__text">
+              This article is floated online with an aim to help you find the
+              best dvd printing solution.
+            </p>
+            <p class="project__text">
+              Dvd printing is an important feature used by large and small DVD
+              production houses to print information on DVDs.
+            </p>
+            <a class="link project__link" href="#">See Case Study</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="project project--reverse">
+      <div class="project__img d-none d-xxl-block">
+        <img src="images/projects/3d-model/3d-model.jpg" alt="3D model" />
+      </div>
+      <div class="container">
+        <div class="project__img d-xxl-none">
+          <img src="images/projects/3d-model/3d-model.jpg" alt="3D model" />
+        </div>
+        <div class="project__wrap">
+          <div class="flex-grow-1">
+            <div class="project_feedback">
+              <p class="project_feedback__text">
+                “I know they are going to be honest with me. I am not going to
+                get a subpar product; I know it is going to be good. That is the
+                number one advantage of working with Exhibit Systems.
+              </p>
+              <div class="project_customer">
+                <div class="project_customer__photo">
+                  <img
+                    src="images/customes-photo/lina-hart.png"
+                    alt="Lina Hart"
+                  />
+                </div>
+                <div>
+                  <p class="project_customer__name">Lina Hart</p>
+                  <p class="project_customer__role">Founder & CEO, Jico</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project__about">
+            <h2 class="section_title">Is this the future of 3D model?</h2>
+            <p class="project__text">
+              While it was just a TV show, that little speech at the beginning
+              of the original Star Trek show really did do a good job of
+              capturing our feelings about space.
+            </p>
+            <p class="project__text">
+              It is those feelings that drive our love of astronomy and our
+              desire to learn more and more about it.
+            </p>
+            <a class="link project__link" href="#">See Case Study</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="project">
+      <div class="project__img d-none d-xxl-block">
+        <img src="images/projects/booking/booking.jpg" alt="Booking" />
+      </div>
+      <div class="container">
+        <div class="project__img d-xxl-none">
+          <img src="images/projects/booking/booking.jpg" alt="Booking" />
+        </div>
+        <div class="project__wrap">
+          <div class="flex-grow-1">
+            <div class="project_feedback">
+              <p class="project_feedback__text">
+                “Exhibit Systems is not a provider. They are not a supplier.
+                They are a partner with expertise in making trade shows
+                effective.”
+              </p>
+              <div class="project_customer">
+                <div class="project_customer__photo">
+                  <img
+                    src="images/customes-photo/eunice-oliver.png"
+                    alt="Eunice Oliver"
+                  />
+                </div>
+                <div>
+                  <p class="project_customer__name">Eunice Oliver</p>
+                  <p class="project_customer__role">Founder & CEO, Zeem</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project__about">
+            <h2 class="section_title">Is this the future of Online Booking?</h2>
+            <p class="project__text">
+              You should be able to find several indispensable facts about
+              motivation in the following paragraphs.
+            </p>
+            <p class="project__text">
+              If there’s at least one fact you didn’t know before, imagine the
+              difference it might make.
+            </p>
+            <a class="link project__link" href="#">See Case Study</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="advantages">
+      <div class="container">
+        <h2 class="section_title">
+          Deation & Evaluation - Best Way to Kick off Your Product Idea
+        </h2>
+        <ul class="advantages_list row row-cols-1 row-cols-sm-2 row-cols-xl-4">
+          <li>
+            <div class="advantages_list__item">
+              <h3 class="advantages_list__title">Product Design Sprint</h3>
+              <div class="advantages_list__content">
+                <p class="advantages_list__text">
+                  A five-day workshop that will help you answer crucial business
+                  questionsz
+                </p>
+                <a href="" class="advantages_list__link link">Read More</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="advantages_list__item">
+              <h3 class="advantages_list__title">Scoping Session</h3>
+              <div class="advantages_list__content">
+                <p class="advantages_list__text">
+                  A workshop aimed at shaping your business idea, answering
+                  questions regarding project planning
+                </p>
+                <a href="" class="advantages_list__link link">Read More</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="advantages_list__item">
+              <h3 class="advantages_list__title">UX <br />Review</h3>
+              <div class="advantages_list__content">
+                <p class="advantages_list__text">
+                  An evaluation which will help you radically improve your
+                  product.
+                </p>
+                <a href="" class="advantages_list__link link">Read More</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="advantages_list__item">
+              <h3 class="advantages_list__title">Code <br />Review</h3>
+              <div class="advantages_list__content">
+                <p class="advantages_list__text">
+                  Do you know what one of the key secrets of success is what
+                  makes people successful in business
+                </p>
+                <a href="" class="advantages_list__link link">Read More</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="call_to_action">
+      <div class="call_to_action__back"></div>
+      <div class="container">
+        <div class="call_to_action__wrap">
+          <h2 class="call_to_action__title">
+            Let’s make something amazing together.
+          </h2>
+          <a href="" class="link">LET'S GET STARTED</a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer" id="contacts">
+      <div class="container">
+        <address class="address">
+          <ul class="address__list">
+            <li class="address__item">
+              <p>Phone</p>
+              <a href="tel:4850312832">+48 50 31 28 32</a>
+            </li>
+            <li class="address__item">
+              <p>Address</p>
+              <a href="#">491 Merlin Crest Suite 963</a>
+            </li>
+          </ul>
+        </address>
+        <div class="footer_menu row">
+          <div class="col-xl-9">
+            <div class="row row-cols-sm-3">
+              <div>
+                <p class="footer_menu__title">Services</p>
+                <ul class="footer_menu__list">
+                  <li><a href="">Strategy Design</a></li>
+                  <li><a href="">Product Design</a></li>
+                  <li><a href="">Content Strategy</a></li>
+                  <li><a href="">Brand Strategy</a></li>
+                  <li><a href="">Development </a></li>
+                </ul>
+              </div>
+              <div>
+                <p class="footer_menu__title">Help And Advice</p>
+                <ul class="footer_menu__list">
+                  <li><a href="">How it works</a></li>
+                  <li><a href="">Contact Support</a></li>
+                  <li><a href="">Privacy Policy</a></li>
+                  <li><a href="">FAQ</a></li>
+                </ul>
+              </div>
+              <div>
+                <p class="footer_menu__title">Company</p>
+                <ul class="footer_menu__list">
+                  <li><a href="">About</a></li>
+                  <li><a href="">Blog</a></li>
+                  <li><a href="">Contact</a></li>
+                  <li><a href="">Jobs</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 mt-4 mt-xl-0">
+            <div class="footer_contacts">
+              <p class="footer_menu__title">Get in Touch</p>
+              <p class="footer_contacts__text">
+                Feel free to get in touch with us vai email
+              </p>
+              <a
+                class="footer_contacts__mail"
+                href="mailto:info.webovio@gmail.com"
+                >info.webovio@gmail.com</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="footer_bottom">
+          <div class="footer_bottom__wrap">
+            <a class="footer__logo" href="#">
+              <img src="images/logo/logo.svg" alt="Logo" />
+            </a>
+            <p class="footer__copyright mt-3 mt-sm-0">
+              © 2023@webovio. All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"
+      integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

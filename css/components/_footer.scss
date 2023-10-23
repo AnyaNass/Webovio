@@ -1,0 +1,139 @@
+.footer{
+	padding: 50px 0 30px;
+	background-color: $dark_bg;
+	color: $footer_text_color;
+	@include font(16, 40);
+
+	@media (min-width: $breakpoint_md) {
+		padding-top: 120px;
+	}
+}
+
+.address{
+	padding-bottom: 52px;
+	border-bottom: 1px solid #5D6544;
+}
+
+.address__list{
+
+
+	@media (min-width: $breakpoint_xs) {
+		display: flex;
+		gap: 8px;
+	}
+
+	@media (min-width: $breakpoint_sm){
+		gap: 68px;
+	}
+}
+
+.address__item{
+
+	a{
+		margin: 8px 0 0;
+		color: $light_text_color;
+		font-weight: 700;
+		position: relative;
+		transition: color $transition;
+
+		&:hover, &:focus{
+			color: $accent_color;
+		}
+	}
+}
+
+.footer_menu{
+	padding: 50px 0;
+
+	@media (min-width: $breakpoint_md) {
+		padding: 60px 0;
+	}
+}
+
+.footer_menu__title{
+	color: $light_text_color;
+	text-transform: uppercase; 
+	font-weight: 600;
+}
+
+.footer_menu__list{
+
+	@media (min-width: $breakpoint_md) {
+		margin-top: 21px;
+	}
+
+	a{
+		color: $footer_text_color;
+		position: relative;
+		transition: color $transition;
+
+		&:hover, &:focus{
+			color: $accent_color;
+		}
+	}
+}
+
+.footer_contacts{
+	position: relative;
+
+	&::before{
+		content: "";
+		display: none;
+		position: absolute;
+		top: 0;
+		height: 210px;
+		left: -85px;
+		width: 1px;
+		background-color: #5D6544;
+
+		@media (min-width: $breakpoint_xl) {
+			display: block;
+		}
+
+		@media (min-width: $breakpoint_xxl) {
+			left: -110px;
+		}
+	}
+}
+
+.footer_contacts__text{
+	margin: 23px 0;
+	@include font(16, 26);
+}
+
+.footer_contacts__mail{
+	color: $light_text_color;
+	font-weight: 700;
+	transition: color $transition;
+
+	&:hover, &:focus{
+		color: $accent_color;
+	}
+}
+
+.footer_bottom{
+	padding: 24px 0 0;
+	border-top: 1px solid #5D6544;
+}
+
+.footer_bottom__wrap{
+
+	@media (min-width: $breakpoint_sm) {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+}
+
+.footer__logo{
+	width: 200px;
+	height: 35px; 
+	
+	img{
+		object-fit: contain;
+	}
+}
+
+.footer__copyright{
+	@include font(14, 21);
+}

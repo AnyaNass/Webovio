@@ -1,0 +1,43 @@
+.banner{
+	@include background('../../images/banner/banner.jpg');
+	padding: 120px 0;
+	color: $light_text_color;
+	position: relative;
+
+	@media (min-width: $breakpoint_md) {
+		padding-top: 188px;
+	}
+
+	@media (min-width: $breakpoint_xl) {
+		padding-bottom: 210px;
+	}
+}
+
+.banner__wrap{
+	max-width: 616px;
+}
+
+.banner__subtitle{
+	@include font(14, 21);
+}
+
+.banner__title{
+	@include font(30, 40, 700);
+	margin: 24px 0;
+
+	@media (min-width: $breakpoint_sm) {
+		@include font(35, 45, 700);
+	}
+
+	@media (min-width: $breakpoint_md) {
+		@include font(60, 74, 700);
+	}
+}
+
+.banner__link{
+	display: inline-block;
+	margin: 45px 0 0;
+	color: $accent_color;
+	text-decoration: underline;
+	font-weight: 700;
+}

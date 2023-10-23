@@ -1,0 +1,12 @@
+@mixin font($size, $lineHeight, $weight: 400) {
+	font-size: $size + px;
+	line-height: calc($lineHeight / $size);
+	font-weight: $weight;
+}
+
+@mixin background($image, $size: cover) {
+	background-image: url($image);
+	background-size: $size;
+	background-position: center;
+	background-repeat: no-repeat;
+}

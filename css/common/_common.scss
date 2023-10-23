@@ -1,0 +1,51 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+	 color: $main_text_color;
+	 @include font(16, 26);
+	 font-family: $main_font;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+.container{
+	@media (min-width: 1134px) {
+		max-width: 1134px;
+	}
+}
+
+.no-scroll{
+	overflow: hidden;
+}
+
+// .section{
+// 	padding: 40px 0;
+// }
+
+.section_title{
+	@include font(30, 35, 700);
+
+	@media (min-width: $breakpoint_sm) {
+		@include font(36, 46, 700);
+	}
+}
+
+.link{
+	display: inline-block;
+	color: #D4D6D4; 
+	@include font(16, 24, 700);
+	text-decoration-line: underline;
+	transition: color $transition;
+
+	&:hover, &:focus{
+		color: $accent_color;
+	}
+}

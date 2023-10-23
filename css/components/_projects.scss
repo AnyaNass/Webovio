@@ -1,0 +1,44 @@
+.projects{
+	padding: 50px 0;
+	position: relative;
+
+	&::before{
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		background-color: rgba(33, 56, 66, 0.10);
+		width: 82%;
+		height: 1px;
+	}
+
+	@media (min-width: $breakpoint_lg) {
+		padding: 150px 0 52px;
+	}
+}
+
+.projects__wrap{
+
+	@media (min-width: $breakpoint_lg) {
+		display: flex;
+		align-items: center;
+		gap: 75px;
+	}
+
+	@media (min-width: $breakpoint_xl){
+		gap: 133px;
+	}
+}
+.projects__about{
+	margin: 24px 0 0;
+
+	@media (min-width: $breakpoint_md) {
+		margin-top: 36px;
+	}
+
+	@media (min-width: $breakpoint_lg) {
+		margin-top: 0;
+		max-width: 518px;
+	}
+}

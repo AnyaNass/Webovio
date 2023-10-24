@@ -1,5 +1,5 @@
 .banner{
-	@include background('/images/banner/banner.jpg');
+	@include background('../images/banner/banner.jpg');
 	padding: 120px 0;
 	color: $light_text_color;
 	position: relative;
